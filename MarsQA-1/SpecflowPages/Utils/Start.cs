@@ -22,6 +22,7 @@ namespace MarsQA_1.Utils
             //launch the browser
             Initialize();
 
+            //Extract log-in credentials
             ExcelLibHelper.PopulateInCollection(@"C:\Users\Sheila\source\repos\Advanced-Task-Specflow\MarsQA-1\SpecflowTests\Data\Mars.xlsx", "Credentials");
 
             //call the SignIn class
